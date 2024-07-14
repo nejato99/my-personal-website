@@ -15,7 +15,10 @@ header {
   color: #fff;
   padding: 20px;
 }
-
+.center {
+  text-align: center;
+  border: 3px solid green;
+}
 nav ul {
   list-style: none;
 }
@@ -29,35 +32,52 @@ nav ul li a {
   color: #fff;
   text-decoration: none;
 }
-
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 section {
   padding: 50px;
 }
+body {
+  background-color: lightblue;
+}
 
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
 h1, h2, h3 {
   margin-bottom: 20px;
 }
-
 /* About section styles */
 #about {
   background-color: #f4f4f4;
 }
-
 /* Education section styles */
 #education {
   background-color: #eaeaea;
 }
-
 /* Research section styles */
-#research {
-  background-color: #f4f4f4;
+#research h1 {
+  font-size: 40px;
 }
-
+h2 {
+  font-size: 30px;
+}
+p {
+  font-size: 14px;
+}
 /* Contact section styles */
 #contact {
   background-color: #eaeaea;
 }
-
 /* Footer styles */
 footer {
   background-color: #333;
