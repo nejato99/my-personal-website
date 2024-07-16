@@ -1,23 +1,35 @@
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding: 70px 0;
+  border: 3px solid green;
+  text-align: center;
+}
 h1 {
   background-color: green;
   color: white;
   text-align: center;
 }
-
 div {
   background-color: lightblue;
 }
-
 p {
-  background-color: yellow;
+  color: /*red*/blue; 
   font-family: verdana;
-  font-size: 20px;
+  font-size: 30px;
+  line-height: 200px;
+  height: 200px;
+  border: 3px solid green;
+  text-align: center;
 }
 header {
-      background-color: #00ffbf; /* Your custom background color */
-      color: #ffffff; /* Your custom text color */
+    line-height: 200px;
+  height: 200px;
+  border: 3px solid green;
+  text-align: center;
     }
-
     body a {
       color: #ffffff; /* Your custom link color */
           background-image: url("paper.gif");
@@ -25,8 +37,11 @@ header {
 p.one {
   border-style: solid;
   border-width: 5px;
+  line-height: 200px;
+  height: 200px;
+  border: 3px solid green;
+  text-align: center;
 }
-
 p.two {
   border-style: solid;
   border-width: medium;
@@ -36,7 +51,6 @@ p.three {
   border-style: dotted;
   border-width: 2px;
 }
-
 p.four {
   border-style: dotted;
   border-width: thick;
@@ -81,7 +95,7 @@ ul li {
   margin: 5px;
 }
 img {
-   width: 500px;
+   width: 100%;
   margin: auto;
   border: 3px solid #73AD21;
 }
