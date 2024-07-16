@@ -84,16 +84,11 @@ margin-right: 10px;
 
 ul li {
   background: #ffe5e5;
-  color: darkred;
   padding: 5px;
   margin-left: 35px;
+  list-style-type: none;
 }
 
-ul li {
-  background: #cce5ff;
-  color: darkblue;
-  margin: 5px;
-}
 .image-container {
     position: relative;
     bottom: 0;
