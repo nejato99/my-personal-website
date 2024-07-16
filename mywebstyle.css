@@ -1,118 +1,61 @@
-/* mywebstyle.css */
-
-/* Reset default browser styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Set a base font and background color */
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f2f2f2;
-}
-
-/* Style the header */
 header {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-}
+      background-color: #00ffbf; /* Your custom background color */
+      color: #ffffff; /* Your custom text color */
+    }
 
-/* Style the navigation menu */
-nav ul {
-  list-style-type: none;
-  display: flex;
-}
+    body a {
+      color: #ffffff; /* Your custom link color */
+    }
 
-nav ul li {
-  margin-right: 10px;
-}
+    section {
+      color: hsla(315, 70%, 36%, 0.733); /* Your custom link hover color */
+    }
 
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-  padding: 10px;
-}
+    .custom-button {
+      background-color: #ff0000; /* Your custom background color */
+      color: #ffffff; /* Your custom text color */
+      border: none; /* Remove the default button border */
+    }
 
-/* Style the sections */
-section {
-  padding: 40px;
+    .custom-button:hover {
+      background-color: #ffffff; /* Your custom background color on hover */
+      color: #ff0000; /* Your custom text color on hover */
+    }
+    footer p {
+   background-color: rgb(174, 0, 255);
+    }
+    .comment-section form button{
+        margin-bottom: 20px;
+        background-color: #fff;
+        padding: 10px 20px;
+        border-color: #b700ff;
+        cursor: pointer;
+    }
+    nav ul {
+list-style-type: none;
+display: -webkit-inline-flex;
+size: 1cm;
+height: 30px;
+text-size-adjust: 40px;
+    }
+nav ul list {
+margin-right: 10px;
 }
-
-section h2 {
-  color: #333;
-  margin-bottom: 10px;
+nav ul list a {
+padding: 10px;
+color: #fff;
 }
-
-section p {
-  font-size: 16px;
-  line-height: 1.5;
-  color: #555;
-  margin-bottom: 20px;
-}
-
-section ul {
-  margin-bottom: 20px;
-}
-
-/* Style the images */
 img {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
 }
-
-/* Style the footer */
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
+.image-container {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
 }
-
-footer p {
-  margin-bottom: 10px;
-}
-
-.comment-section {
-  margin-bottom: 20px;
-}
-
-.comment-section h3 {
-  color: #fff;
-  margin-bottom: 10px;
-}
-
-.comment-section form textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-.comment-section form button {
-  padding: 10px 20px;
-  background-color: #333;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-}
-
-.search-form {
-  margin-top: 20px;
-}
-
-.search-form input[type="text"] {
-  padding: 10px;
-  width: 200px;
-}
-
-.search-form button {
-  padding: 10px 20px;
-  background-color: #333;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-}
-
-/* Add more CSS rules as needed */
+  </style>
