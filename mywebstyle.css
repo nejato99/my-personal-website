@@ -3,7 +3,7 @@ img {
   right: 0px;
   width: 300px;
   border: 3px solid #73AD21;
-  padding: 10px;
+  float: right;
 }
 h1 {
   background-color: green;
@@ -92,15 +92,7 @@ ul li {
   color: darkblue;
   margin: 5px;
 }
-img {
-   width: 100%;
-  margin: auto;
-  border: 3px solid #73AD21;
-}
-img {
- position: static;
-  border: 3px solid #73AD21;
-}
+
 .image-container {
     position: relative;
     bottom: 0;
