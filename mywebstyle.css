@@ -77,22 +77,23 @@ p.four {
         border-color: #b700ff;
         cursor: pointer;
     }
-    nav ul {
-list-style-type: none;
-display: -webkit-inline-flex;
-size: 5cm;
-height: 30px;
-text-size-adjust: 40px;
-    }
+    
 nav ul list {
 margin-right: 10px;
 }
+
+ul li {
+  background: #ffe5e5;
+  color: darkred;
+  padding: 5px;
+  margin-left: 35px;
+}
+
 ul li {
   background: #cce5ff;
   color: darkblue;
   margin: 5px;
 }
-
 .image-container {
     position: relative;
     bottom: 0;
