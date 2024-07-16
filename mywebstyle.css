@@ -1,3 +1,14 @@
+h1 {
+  background-color: green;
+}
+
+div {
+  background-color: lightblue;
+}
+
+p {
+  background-color: yellow;
+}
 header {
       background-color: #00ffbf; /* Your custom background color */
       color: #ffffff; /* Your custom text color */
@@ -5,8 +16,27 @@ header {
 
     body a {
       color: #ffffff; /* Your custom link color */
+          background-image: url("paper.gif");
     }
+p.one {
+  border-style: solid;
+  border-width: 5px;
+}
 
+p.two {
+  border-style: solid;
+  border-width: medium;
+}
+
+p.three {
+  border-style: dotted;
+  border-width: 2px;
+}
+
+p.four {
+  border-style: dotted;
+  border-width: thick;
+}
     section {
       color: hsla(315, 70%, 36%, 0.733); /* Your custom link hover color */
     }
@@ -48,8 +78,12 @@ color: #fff;
 img {
     max-width: 100%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 80px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+}
+img {
+  max-width: 100%;
+  height: auto;
 }
 .image-container {
     position: relative;
