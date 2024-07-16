@@ -1,11 +1,9 @@
 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-  padding: 70px 0;
-  border: 3px solid green;
-  text-align: center;
+  position: absolute;
+  right: 0px;
+  width: 300px;
+  border: 3px solid #73AD21;
+  padding: 10px;
 }
 h1 {
   background-color: green;
@@ -82,7 +80,7 @@ p.four {
     nav ul {
 list-style-type: none;
 display: -webkit-inline-flex;
-size: 1cm;
+size: 5cm;
 height: 30px;
 text-size-adjust: 40px;
     }
