@@ -1,5 +1,7 @@
 h1 {
   background-color: green;
+  color: white;
+  text-align: center;
 }
 
 div {
@@ -8,6 +10,8 @@ div {
 
 p {
   background-color: yellow;
+  font-family: verdana;
+  font-size: 20px;
 }
 header {
       background-color: #00ffbf; /* Your custom background color */
@@ -71,19 +75,19 @@ text-size-adjust: 40px;
 nav ul list {
 margin-right: 10px;
 }
-nav ul list a {
-padding: 10px;
-color: #fff;
+ul li {
+  background: #cce5ff;
+  color: darkblue;
+  margin: 5px;
 }
 img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 80px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+   width: 500px;
+  margin: auto;
+  border: 3px solid #73AD21;
 }
 img {
-  max-width: 100%;
-  height: auto;
+ position: static;
+  border: 3px solid #73AD21;
 }
 .image-container {
     position: relative;
@@ -91,5 +95,8 @@ img {
     left: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.1);
+}
+p {
+  margin: 25px 50px 75px 100px;
 }
   </style>
